@@ -40,7 +40,7 @@ router.get("/add-product", function (req, res) {
 });
 router.post("/add-product", function (req, res) {
   console.log(req.body);
-  console.log(req.files);
+  console.log("ss", req.files);
 });
 
 module.exports = router;
